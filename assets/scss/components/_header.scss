@@ -39,6 +39,15 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
+    color: $black;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
     i {
         margin-top: 5px;
     }
