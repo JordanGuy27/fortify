@@ -1,1 +1,1 @@
-Fortify Strenth and Performance  
+Fortify Strength and Performance  

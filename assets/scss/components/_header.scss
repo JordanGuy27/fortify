@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/images/fortifyEdit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    .navWrapper {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        justify-content: space-between;
+        .fortifyImageHeader {
+            width: 10%;
+            img {
+                max-width: 50%;
+            }
+        }
+        .navUl {
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+        }
+        .navUl li {
+            list-style: none;
+        }
+        .navUl a {
+                text-decoration: none;
+                color: black;
+        }
+    }
+}
+
+.mainNav {
+    background-color: $grey;
+}
+
+.scrollDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    i {
+        margin-top: 5px;
+    }
+}
