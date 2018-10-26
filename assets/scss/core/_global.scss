@@ -18,3 +18,9 @@ img, svg { max-width: 100%; }
   max-width: 80%;
   margin: 0 auto;
 }
+
+.backgroundGradient {
+  background-color: $greyAlpha;
+  padding: 20px;
+  border-radius: 5px;
+}

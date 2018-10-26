@@ -5,7 +5,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 100%;
+        min-height: 80%;
     }
     .headshot {
         width: 35%;
@@ -16,6 +16,7 @@
     h2 {
         font-size: 50px;
         padding: 30px 0;
+        text-align: center;
     }
     p {
         font-size: 18px;
