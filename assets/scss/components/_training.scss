@@ -1,21 +1,24 @@
 .training {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../../../assets/images/sledPush.jpg');
+    background-image: linear-gradient(to right, rgba(250, 250, 250, 0.1), rgba(0, 0, 0, 0.7)),
+    url('../../../assets/images/brickwall.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     h2 {
         font-size: 50px;
         text-align: center;
-        padding: 30px 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
         color: $white;
+        font-weight: 500;
     }
     p {
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.7;
         color: $white;
+        margin-bottom: 20px;
         text-align: center;
     }
     .trainingContent {
@@ -23,5 +26,10 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .backgroundGradient {
+        background-color: $blackAlpha;
+        padding: 20px;
+        border-radius: 5px;
     }
 }

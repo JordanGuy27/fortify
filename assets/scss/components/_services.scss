@@ -8,13 +8,17 @@
     h2 {
         font-size: 50px;
         text-align: center;
-        padding: 30px 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-weight: 500;
         color: $white;
     }
     p {
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.7;
         color: $white;
+        margin-bottom: 20px;
         text-align: center;
     }
     .servicesContent {
@@ -22,5 +26,10 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .backgroundGradient {
+        background-color: $blackAlpha;
+        padding: 20px;
+        border-radius: 5px;
     }
 }
