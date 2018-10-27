@@ -1,0 +1,47 @@
+.contact {
+    
+    .contactFlex {
+        display: flex;
+        justify-content: space-between;
+        .getInTouch {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            h2 {
+                font-size: 30px;
+                margin: 20px 0;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            .contactContent form {
+                display: flex;
+                flex-direction: column;
+            }
+            .contactContent input[type = "text"] {
+                width: 70%;
+                margin-bottom: 20px;
+                padding: 10px;
+                font-size: 14px;
+            }
+            .contactContent input[type = "submit"] {
+                width: 35%;
+                padding: 15px 10px;
+                background-color: $black;
+                color: $white;
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+            .inputContainer {
+                width: 100%;
+            }
+        }
+        .contactInfo {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
