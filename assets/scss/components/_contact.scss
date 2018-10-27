@@ -1,8 +1,8 @@
 .contact {
-    
     .contactFlex {
         display: flex;
         justify-content: space-between;
+        padding: 30px 0;
         .getInTouch {
             width: 50%;
             display: flex;
@@ -36,6 +36,36 @@
             }
             .inputContainer {
                 width: 100%;
+            }
+        }
+        .social, .connectWithUs {
+            h4 {
+                font-size: 25px;
+                margin: 20px 0;
+            }
+        }
+        .social {
+            .icons a {
+                text-decoration: none;
+                color: $black;
+                font-size: 18px;
+                margin-right: 10px;
+                &:hover {
+                    color: $blackAlpha;
+                }
+            }
+            .icons i {
+                margin-right: 5px; 
+            }
+        }
+        .connectWithUs p {
+            line-height: 1.7;
+        }
+        .connectWithUs a {
+            text-decoration: none;
+            color: $black;
+            &:hover {
+                color: $blackAlpha;
             }
         }
         .contactInfo {
