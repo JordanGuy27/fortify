@@ -5,7 +5,11 @@
   "main": "Gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "iscroll": "^5.2.0",
+    "jquery": "^2.2.4",
+    "jquery-drawer": "^3.2.2",
+    "slideout": "^1.0.1"
   },
   "devDependencies": {
     "breakpoint-sass": "^2.7.0",

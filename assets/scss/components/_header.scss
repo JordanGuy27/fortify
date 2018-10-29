@@ -16,9 +16,9 @@ header {
             }
         }
         .navUl {
-            display: none;
+            display: flex;
             justify-content: space-between;
-            width: 40%;
+            width: 100%;
         }
         .navUl li {
             list-style: none;
@@ -28,6 +28,12 @@ header {
                 color: black;
         }
     }
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .mainNav {
