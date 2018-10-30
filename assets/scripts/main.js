@@ -1,8 +1,7 @@
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".sidebar");
 
-let $hamburger = $(".hamburger");
-
-$hamburger.on("click", function (e) {
-    $hamburger.toggleClass("is-active");
+hamburger.addEventListener('click', function() {
+    hamburger.classList.toggle("is-active");
+    nav.classList.toggle("active");
 });
-
-
