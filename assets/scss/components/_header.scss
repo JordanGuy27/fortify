@@ -4,41 +4,25 @@ header {
     background-image: url('../../../assets/images/fortifyEdit.png');
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
     .navWrapper {
         display: flex;
         align-items: center;
         padding: 20px 0;
         justify-content: space-between;
-        .fortifyImageHeader {
-            width: 10%;
-            img {
-                max-width: 50%;
-            }
-        }
-        // .navUl {
-        //     margin: 0;
-        //     padding: 20px 0;
-        //     justify-content: space-between;
-        //     width: 100%;
-        // }
-        // .navUl li {
-        //     list-style: none;
-        // }
-        // .navUl li a {
-        //         text-decoration: none;
-        //         padding: 10px 20px;
-        //         border-bottom: 1px solid red;
-        //         color: black;
-        //         display: block;
-        // }
     }
 }
-
+.hamburgerContainer {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
 .sidebar {
     position: fixed;
-    top: 0;
+    top: 90px;
     right: -30vw;
-    background-color: green;
+    background-color: $grey;
     width: 30vw;
     height: 100%;
     transition: all 1s ease;
@@ -51,27 +35,54 @@ header {
         padding: 20px 0;
         justify-content: space-between;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .navUl li {
         list-style: none;
     }
     .navUl li a {
             text-decoration: none;
-            padding: 10px 20px;
-            border-bottom: 1px solid red;
+            margin: 20px 0;
+            margin-left: 20px;
+            padding: 20px 0;
+            font-size: 18px;
+            font-weight: 500;
+            border-bottom: 2px solid $white;
             color: black;
             display: block;
-            width: 100%;
+            width: 70%;
     }
+.fortifyImageHeader {
+    width: 10%;
 
+    img {
+        max-width: 50%;
+    }
+}
 nav {
     width: 100%;
+    height: 80%;
     display: flex;
     justify-content: space-between;
 }
-
+.backgroundActive {
+    background:rgba(0, 0, 0, 0.8);
+    display: none;
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    transition: 5s all ease;
+    z-index:5;
+}
 .mainNav {
-    background-color: $grey;
+    background-color: $white;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 10;
 }
 
 .scrollDown {
@@ -85,6 +96,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     left: 0;
+    z-index: 50000;
     right: 0;
     bottom: 0;
     margin-bottom: 20px;
