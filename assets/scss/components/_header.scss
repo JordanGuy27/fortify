@@ -48,14 +48,13 @@ header {
             padding: 20px 0;
             font-size: 18px;
             font-weight: 500;
-            border-bottom: 2px solid $white;
+            border-bottom: 3px solid $white;
             color: black;
             display: block;
-            width: 70%;
+            width: 75%;
     }
 .fortifyImageHeader {
     width: 10%;
-
     img {
         max-width: 50%;
     }
@@ -96,7 +95,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    z-index: 50000;
+    z-index: 1;
     right: 0;
     bottom: 0;
     margin-bottom: 20px;
