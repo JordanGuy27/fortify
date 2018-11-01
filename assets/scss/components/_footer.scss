@@ -1,7 +1,7 @@
 footer {
     width: 100%;
-    background-color: $grey;
-
+    border-top: 1px solid $black;
+    color: $black;
     .footerContent {
         display: flex;
         justify-content: space-between;
@@ -10,7 +10,6 @@ footer {
         padding: 20px 0;
     }
 }
-
 .footerImage {
     width: 10%;
     margin-bottom: 20px;
@@ -19,8 +18,4 @@ footer {
         display: block;
         margin: 0 auto;
     }
-}
-
-.footerDescription {
-
 }

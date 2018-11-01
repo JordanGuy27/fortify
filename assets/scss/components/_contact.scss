@@ -12,9 +12,11 @@
                 margin: 20px 0;
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 700;
+                color: $black;
             }
             p {
                 margin-bottom: 20px;
+                color: $black;
             }
             .contactContent form {
                 display: flex;
@@ -45,10 +47,13 @@
                 font-size: 25px;
                 margin: 20px 0;
                 font-weight: 700;
+                color: $black;
+                width: 100%;
                 font-family: 'Montserrat', sans-serif;
             }
         }
         .social {
+          margin-top: 10px;
             .icons a {
                 text-decoration: none;
                 color: $black;
@@ -62,15 +67,20 @@
                 margin-right: 5px; 
             }
         }
-        .connectWithUs p {
-            line-height: 1.7;
-        }
-        .connectWithUs a {
+        .contactInfo {
+          .connectWithUs { 
+            width: 100%;
+            p {
+              line-height: 1.7;
+            } 
+            a {
             text-decoration: none;
             color: $black;
-            &:hover {
-                color: $blackAlpha;
+              &:hover {
+                  color: $blackAlpha;
+              }
             }
+          }
         }
         .contactInfo {
             width: 40%;
@@ -78,4 +88,47 @@
             flex-direction: column;
         }
     }
+}
+
+//MEDIA QUERIES
+
+@media(max-width: 1000px) {
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    .contactFlex {
+      flex-direction: column-reverse;
+      align-items: center;
+      .getInTouch {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        .contactContent input[type = "text"] {
+          width: 80%;
+          padding: 10px 5px;
+        }
+        .contactContent input[type = "submit"] {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+      .contactInfo {
+        width: 100%;
+        text-align: center;
+        .social {
+          width: 100%;
+          margin-top: 20px;
+        .connectWithUs {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,6 +1,8 @@
 .philosophy {
     width: 100%;
-    height: 100vh;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('../../../assets/images/frontLunge.jpg');
     background-repeat: no-repeat;
@@ -32,5 +34,19 @@
         background-color: $blackAlpha;
         padding: 30px;
         border-radius: 5px;
+        margin: 20px 0;
     }
+}
+
+//MEDIA QUERIES
+
+@media(max-width: 600px) {
+  .philosophy {
+    p {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
 }
