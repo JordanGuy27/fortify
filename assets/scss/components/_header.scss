@@ -40,6 +40,12 @@ header {
     }
     .navUl li {
         list-style: none;
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        i {
+          font-size: 25px;
+        }
     }
     .navUl li a {
       text-decoration: none;
@@ -50,7 +56,12 @@ header {
       font-weight: 500;
       color: black;
       display: block;
-      width: 75%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid $white;
+      padding-bottom: 20px;
     }
 .fortifyImageHeader {
     width: 10%;
