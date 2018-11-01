@@ -10,9 +10,10 @@
         font-size: 50px;
         text-align: center;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         color: $white;
-        font-weight: 500;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
     }
     p {
         font-size: 18px;
@@ -29,7 +30,7 @@
     }
     .backgroundGradient {
         background-color: $blackAlpha;
-        padding: 20px;
+        padding: 30px;
         border-radius: 5px;
     }
 }
