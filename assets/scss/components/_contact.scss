@@ -43,14 +43,17 @@
             }
         }
         .social, .connectWithUs {
-            h4 {
-                font-size: 25px;
-                margin: 20px 0;
-                font-weight: 700;
-                color: $black;
-                width: 100%;
-                font-family: 'Montserrat', sans-serif;
-            }
+          h4 {
+              font-size: 25px;
+              margin: 20px 0;
+              font-weight: 700;
+              color: $black;
+              width: 100%;
+              font-family: 'Montserrat', sans-serif;
+          }
+          p {
+            color: $black;
+          }
         }
         .social {
           margin-top: 10px;
@@ -76,8 +79,10 @@
             a {
             text-decoration: none;
             color: $black;
+            border-bottom: 1px solid $black;
               &:hover {
                   color: $blackAlpha;
+                  border-bottom: 1px solid $blackAlpha;
               }
             }
           }
@@ -109,6 +114,9 @@
         text-align: center;
         justify-content: center;
         margin-top: 20px;
+        h2 {
+          font-size: 25px;
+        }
         .contactContent input[type = "text"] {
           width: 80%;
           padding: 10px 5px;
