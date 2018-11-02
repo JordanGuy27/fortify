@@ -19,3 +19,16 @@ footer {
         margin: 0 auto;
     }
 }
+
+//MEDIA QUERIES
+@media(max-width: 900px) {
+  footer {
+    .footerImage {
+      width: 30%;
+    }
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
