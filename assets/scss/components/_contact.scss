@@ -42,7 +42,7 @@
                 width: 100%;
             }
         }
-        .social, .connectWithUs {
+        .connectWithUs {
           h4 {
               font-size: 25px;
               margin: 20px 0;
@@ -57,18 +57,26 @@
         }
         .social {
           margin-top: 10px;
-            .icons a {
-                text-decoration: none;
-                color: $black;
-                font-size: 18px;
-                margin-right: 10px;
-                &:hover {
-                    color: $blackAlpha;
-                }
-            }
-            .icons i {
-                margin-right: 5px; 
-            }
+          h4 {
+            font-size: 25px;
+            margin-top: 20px;
+            font-weight: 700;
+            color: $black;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+          }
+          .icons a {
+              text-decoration: none;
+              color: $black;
+              font-size: 18px;
+              margin-right: 10px;
+              &:hover {
+                  color: $blackAlpha;
+              }
+          }
+          .icons i {
+              margin-right: 5px; 
+          }
         }
         .contactInfo {
           .connectWithUs { 
@@ -136,6 +144,10 @@
           margin-top: 20px;
           .icons {
             justify-content: center;
+            a {
+              display: inline-block;
+              margin-top: 20px;
+            }
           }
         .connectWithUs {
             width: 100%;

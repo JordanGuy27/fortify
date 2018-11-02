@@ -6,6 +6,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
+    "hover.css": "^2.3.2",
     "iscroll": "^5.2.0",
     "jquery": "^2.2.4",
     "jquery-drawer": "^3.2.2",
