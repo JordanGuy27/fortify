@@ -79,6 +79,8 @@
             a {
             text-decoration: none;
             color: $black;
+            margin-top: 5px;
+            display: inline-block;
             border-bottom: 1px solid $black;
               &:hover {
                   color: $blackAlpha;
@@ -132,9 +134,24 @@
         .social {
           width: 100%;
           margin-top: 20px;
+          .icons {
+            justify-content: center;
+          }
         .connectWithUs {
             width: 100%;
           }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 340px) {
+  .contact {
+    .contactFlex {
+      .contactInfo {
+        .connectWithUs a {
+          font-size: 14px;
         }
       }
     }
