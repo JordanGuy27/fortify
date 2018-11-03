@@ -37,6 +37,11 @@
                 font-weight: 500;
                 margin-bottom: 20px;
                 border-radius: 5px;
+                cursor: pointer;
+                display: inline-block;
+                &:hover {
+                  background-color: $blackAlpha;
+                }
             }
             .inputContainer {
                 width: 100%;
