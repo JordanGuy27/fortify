@@ -65,6 +65,9 @@
             width: 100%;
             font-family: 'Montserrat', sans-serif;
           }
+          .icons {
+            margin-top: 20px;
+          }
           .icons a {
               text-decoration: none;
               color: $black;
@@ -139,11 +142,13 @@
       .contactInfo {
         width: 100%;
         text-align: center;
-        .social {
+      }
+      .social {
           width: 100%;
           margin-top: 20px;
           .icons {
             justify-content: center;
+            margin-top: 0;
             a {
               display: inline-block;
               margin-top: 20px;
@@ -153,7 +158,6 @@
             width: 100%;
           }
         }
-      }
     }
   }
 }
