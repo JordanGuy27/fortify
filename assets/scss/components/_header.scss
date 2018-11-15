@@ -11,6 +11,36 @@ header {
         justify-content: space-between;
     }
 }
+.stickyNav {
+    width: 70%;
+}
+.stickyNavFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; 
+    li {
+        list-style: none;
+        width: 100%;
+        margin-left: 10px;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: $black;
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        display: inline-block;
+        text-transform: uppercase;
+        transition: 0.2s all ease;
+        &:hover {
+            color: $blackAlpha;
+        }
+    }
+}
 .hamburgerContainer {
     display: flex;
     height: 70px;
@@ -129,6 +159,9 @@ nav {
   header {
     background-image: url('../../../assets/images/fortify2.png');
   }
+  .stickyNav {
+      display: none;
+  }
 }
 
 @media(max-width: 777px) {
@@ -152,6 +185,9 @@ nav {
 }
 
 @media(max-width: 600px) {
+  .scrollDown {
+      display: none;
+  }
   .sidebar {
       position: fixed;
       right: -60%;
