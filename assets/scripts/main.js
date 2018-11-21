@@ -5,7 +5,7 @@ const background = document.querySelector(".backgroundActive");
 $(document).ready(function () {
   $('a').smoothScroll({
     speed: 1300,
-    offset: -90,
+    offset: -20,
   });
 }); 
 
@@ -19,3 +19,7 @@ nav.addEventListener('click', function () {
   hamburger.classList.toggle("is-active");
   background.style.display = background.style.display === "block" ? "" : "block";
 });
+
+var shiftWindow = function () { scrollBy(0, -100) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);

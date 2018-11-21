@@ -1,0 +1,62 @@
+header.youth {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../../../assets/images/brickwall.jpg');
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+}
+
+.youthHeading {
+    position: relative;
+    top: 55%;
+    transform: translateY(-55%);
+    h1 {
+        font-size: 60px;
+        color: $white;
+        text-align: center;
+    }
+}
+
+main {
+    .youthDescription {
+        color: $black;
+        font-size: 25px;
+        line-height: 1.5;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        p {
+            width: 60%;
+            line-height: 1.5;
+        }
+    }
+    .youthFocus {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        h2 {
+            font-size: 30px;
+            border-bottom: 2px solid $black;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                font-size: 20px;
+                margin: 10px 0;
+            }
+        }
+        p {
+            font-size: 20px;
+            margin: 40px 0;
+            padding-bottom: 10px;
+            color: rgb(184, 39, 39);
+        }
+    }
+}
